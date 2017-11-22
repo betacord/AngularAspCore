@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Evento.Core.Domain;
+using App.Core.Domain;
 
-namespace Evento.Core.Repositories
+namespace App.Core.Repositories
 {
     public interface IUserRepository
     {

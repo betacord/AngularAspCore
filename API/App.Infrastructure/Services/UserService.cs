@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
-using Evento.Core.Domain;
-using Evento.Core.Repositories;
-using Evento.Infrastructure.DTO;
-using Evento.Infrastructure.Extensions;
-using Evento.Infrastructure.Repositories;
+using App.Core.Domain;
+using App.Core.Repositories;
+using App.Infrastructure.DTO;
+using App.Infrastructure.Extensions;
+using App.Infrastructure.Repositories;
+using App.Infrastructure.Services;
 
-namespace Evento.Infrastructure.Services
+namespace App.Infrastructure.Services
 {
     public class UserService : IUserService
     {

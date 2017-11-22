@@ -1,0 +1,8 @@
+C:\Users\t-krz\Documents\Projekty\Warsztat\API\App.Core\bin\Debug\netstandard2.0\App.Core.deps.json
+C:\Users\t-krz\Documents\Projekty\Warsztat\API\App.Core\bin\Debug\netstandard2.0\App.Core.dll
+C:\Users\t-krz\Documents\Projekty\Warsztat\API\App.Core\bin\Debug\netstandard2.0\App.Core.pdb
+C:\Users\t-krz\Documents\Projekty\Warsztat\API\App.Core\obj\Debug\netstandard2.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\t-krz\Documents\Projekty\Warsztat\API\App.Core\obj\Debug\netstandard2.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\t-krz\Documents\Projekty\Warsztat\API\App.Core\obj\Debug\netstandard2.0\App.Core.AssemblyInfo.cs
+C:\Users\t-krz\Documents\Projekty\Warsztat\API\App.Core\obj\Debug\netstandard2.0\App.Core.dll
+C:\Users\t-krz\Documents\Projekty\Warsztat\API\App.Core\obj\Debug\netstandard2.0\App.Core.pdb

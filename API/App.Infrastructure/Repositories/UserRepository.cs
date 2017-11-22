@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Evento.Core.Domain;
-using Evento.Core.Repositories;
+using App.Core.Domain;
+using App.Core.Repositories;
 
-namespace Evento.Infrastructure.Repositories
+namespace App.Infrastructure.Repositories
 {
     public class UserRepository : IUserRepository
     {

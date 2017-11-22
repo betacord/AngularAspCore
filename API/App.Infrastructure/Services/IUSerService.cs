@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Evento.Infrastructure.DTO;
+using App.Infrastructure.DTO;
 
-namespace Evento.Infrastructure.Services
+namespace App.Infrastructure.Services
 {
     public interface IUserService
     {

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Evento.Core.Domain
+namespace App.Core.Domain
 {
     public class User : Entity
     {
