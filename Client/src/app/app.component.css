@@ -1,0 +1,9 @@
+.content-wrapper {
+  background: #518bff;
+  margin: 0 0 0 180px;
+  min-height: 100%;
+  padding: 0;
+}
+.content-wrapper-login-view {
+  margin: 0;
+}
