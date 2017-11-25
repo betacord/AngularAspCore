@@ -1,9 +1,9 @@
 <div class="sidebar">
   <nav>
     <ul>
-      <li>HOME</li>
+      <li [routerLink]="['/home']" [routerLinkActive]="'active'">HOME</li>
       <li>PANEL ADMINA</li>
-      <li>WYLOGUJ</li>
+      <li (click)="logout()">WYLOGUJ</li>
     </ul>
   </nav>
 </div>
