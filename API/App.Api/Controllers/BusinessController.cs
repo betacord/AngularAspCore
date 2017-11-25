@@ -14,15 +14,17 @@ namespace App.Api.Controllers
     [Route("[controller]")]
     public class BusinessController : ApiControllerBase
     {
-        [HttpPost("admininfo")]
+        [HttpGet("admininfo")]
         [Authorize(Policy = "HasAdminRole")]
         public IActionResult AdminInfo()
             => Json($"Witaj administratorze");
 
 
-        [HttpPost("userinfo")]
+        [HttpGet("userinfo")]
         [Authorize]
         public IActionResult UserInfo()
             => Json($"Witaj użytkowniku");
+
+        
     }
 }

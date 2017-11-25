@@ -69,6 +69,10 @@ namespace App.Api
 
             jwtSettings = app.ApplicationServices.GetService<IOptions<JwtSettings>>();
 
+            app.UseCors(
+                options => options.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().AllowCredentials()
+            );
+
             app.UseAuthentication();
             app.UseMvc();
         }
