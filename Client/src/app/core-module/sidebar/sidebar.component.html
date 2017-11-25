@@ -2,7 +2,7 @@
   <nav>
     <ul>
       <li [routerLink]="['/home']" [routerLinkActive]="'active'">HOME</li>
-      <li>PANEL ADMINA</li>
+      <li *ngIf="isAdminRole()" [routerLink]="['/admin']">PANEL ADMINA</li>
       <li (click)="logout()">WYLOGUJ</li>
     </ul>
   </nav>

@@ -12,6 +12,8 @@ import { AuthGuard } from './auth/auth.guard';
 import { LoginModule } from './login/login.module';
 import { LoginRoutingModule } from './login/login-routing.module';
 import { HttpModule } from '@angular/http';
+import { AdminModule } from './admin/admin.module';
+import { AdminGuard } from './auth/admin.guard';
 
 
 @NgModule({
@@ -24,10 +26,11 @@ import { HttpModule } from '@angular/http';
     HttpModule,
     BrowserModule,
     LoginModule,
+    AdminModule,
     AppRoutingModule,
     LoginRoutingModule
   ],
-  providers: [AuthService, LayoutService, AuthGuard],
+  providers: [AuthService, LayoutService, AuthGuard, AdminGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

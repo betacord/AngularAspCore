@@ -19,4 +19,8 @@ export class SidebarComponent implements OnInit {
     this.router.navigate(['/login']);
   }
 
+  isAdminRole() {
+    return this.authService.isAdminRole();
+  }
+
 }

@@ -42,5 +42,9 @@ export class AuthService {
     return this.isUserLoggedIn;
   }
 
+  isAdminRole() {
+    return this.role === "admin";
+  }
+
 
 }
